@@ -12,5 +12,5 @@ export default async function MainMenuComponent() {
     },
   ];
   const answer = await inquirer.prompt<MainMenuPrompt>(questions);
-  return answer;
+  return answer.option;
 }

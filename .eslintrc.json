@@ -19,7 +19,9 @@
     ],
     "no-undef": "error"
   },
-  "ignorePatterns": [
-    "dist/"
-  ]
+  "ignorePatterns": ["dist/"],
+  "globals": {
+    "process": "readonly",
+    "__dirname": "readonly"
+  }
 }
